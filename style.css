@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+header ul li{
+    margin-left: 1.5rem;
+}
+
+header ul img{
+    height: 24px;
+}
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#menu-icon{
+    height: 18px;
+}
+#user-icon{
+    height: 35px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.google-logo{
+    height: 10rem;
+    pointer-events: none;
+    margin-bottom: 1rem;
+}
+.search{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 30px;
+}
+.search:hover{
+    box-shadow: 1px 2px 2px 2px #f2f2f2;
+}
+.search img{
+   height: 20px;
+}
+.search input{
+    width: 90%;
+    border: none;
+    margin-left: 0.8rem;
+    outline: none;
+    font-size: 1.2rem;
+}
+.buttons button{
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+main p span{
+    color: blue;
+    margin-left: 0.3rem;
+}
+main p{
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+footer {
+    background: #f2f2f2;
+    padding: 0.8rem;
+    margin-top: 15%;
+}
+footer ul{
+    list-style: none;
+
+}
+footer div p{
+    padding: 0.6rem 0.6rem;
+}
+.bottom-menu{
+    display: flex;
+    justify-content: space-between;
+}
+footer div ul{
+    display: flex;
+    padding: 0.6rem 0;
+}
+footer div ul li{
+    padding: 0 0.6rem;
+}
